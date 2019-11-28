@@ -27,7 +27,7 @@ class NinjaCard extends StatelessWidget {
           children: <Widget>[
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage('assets/100.png'),
+                backgroundImage: AssetImage('assets/foto_profil.jpg'),
                 radius: 40,
               ),
             ),
@@ -44,7 +44,7 @@ class NinjaCard extends StatelessWidget {
               height: 10,
             ),
             Text(
-              'Chun-li',
+              'Arif Ikhsanudin',
               style: TextStyle(
                   color: Colors.amberAccent[200],
                   letterSpacing: 2,
